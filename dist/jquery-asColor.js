@@ -1,5 +1,5 @@
 /**
-* jQuery asColor v0.3.5
+* jQuery asColor v0.3.6
 * https://github.com/amazingSurge/asColor
 *
 * Copyright (c) amazingSurge
@@ -1099,7 +1099,7 @@
   })();
 
   var info = {
-    version: '0.3.5'
+    version: '0.3.6'
   };
 
   var OtherAsColor = _jquery2.default.asColor;

@@ -1,7 +1,7 @@
 {
   "verbose": false,
   "force": false,
-  "pkgFiles": ["package.json", "bower.json"],
+  "pkgFiles": ["package.json", "bower.json", "src/info.js"],
   "increment": "patch",
   "commitMessage": "Release v%s",
   "tagName": "v%s",
