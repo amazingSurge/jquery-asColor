@@ -2,7 +2,7 @@
   "name": "jquery-asColor",
   "title": "jQuery asColor",
   "description": "A jquery plugin used to parse css color string and convent it to other color formats. It support rgb, rgba, hex, hsl, hsla.",
-  "version": "0.3.4",
+  "version": "0.3.5",
   "homepage": "https://github.com/amazingSurge/asColor",
   "author": {
     "name": "amazingSurge",
@@ -29,6 +29,7 @@
   ],
   "license": "LGPL-3.0",
   "main": "dist/jquery-asColor.js",
+  "module": "dist/jquery-asColor.es.js",
   "files": [
     "dist",
     "src"
@@ -46,7 +47,7 @@
     "jquery": "^3.1.1"
   },
   "devDependencies": {
-    "argv": "*",
+    "yargs": "*",
     "babel-core": "*",
     "babel-eslint": "*",
     "babel-istanbul": "*",
@@ -58,7 +59,8 @@
     "browserify-babel-istanbul": "*",
     "chai": "*",
     "del": "*",
-    "esformatter": "*",
+    "prettier": "*",
+    "gulp-nf-prettier": "*",
     "graceful-fs": "*",
     "gulp": "github:gulpjs/gulp#4.0",
     "gulp-autoprefixer": "*",
@@ -70,7 +72,6 @@
     "gulp-header": "*",
     "gulp-iconfont-css": "*",
     "gulp-if": "*",
-    "gulp-jshint": "*",
     "gulp-notify": "*",
     "gulp-plumber": "*",
     "gulp-rename": "*",
@@ -82,8 +83,8 @@
     "gulp-util": "*",
     "gulp-zip": "*",
     "inquirer": "*",
+    "semver": "*",
     "isparta": "*",
-    "jshint": "*",
     "karma": "*",
     "karma-babel-preprocessor": "*",
     "karma-browserify": "*",
